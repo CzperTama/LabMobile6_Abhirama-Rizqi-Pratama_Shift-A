@@ -87,8 +87,8 @@ Pada nomor 4 diimplementasikan pada nomor 3 pada kode HTML dengan menggunakan `*
 
 # Screenshot
 <div style="display: flex; justify-content: space-between;">
-  <img src="assets/images/prtsc_mobile.png" width="19%">
-  <img src="assets/images/prtsc_mobileshowSchedule.png" width="19%">
-  <img src="assets/images/prtsc_web.png" width="19%">
-  <img src="assets/images/prtsc_web_showSchedule.png" width="19%">
+  <img src="src/assets/images/prtsc_mobile.png" height="300px">
+  <img src="src/assets/images/prtsc_mobileshowSchedule.png" height="300px">
+  <img src="src/assets/images/prtsc_web.png" height="300px">
+  <img src="src/assets/images/prtsc_webshowSchedule.png" height="300px">
 </div>
