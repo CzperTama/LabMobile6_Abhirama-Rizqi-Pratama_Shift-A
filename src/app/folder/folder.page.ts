@@ -9,9 +9,15 @@ import { ActivatedRoute } from '@angular/router';
 export class FolderPage implements OnInit {
   public folder!: string;
   private activatedRoute = inject(ActivatedRoute);
+  showSchedule = false;
+
   constructor() {}
 
   ngOnInit() {
     this.folder = this.activatedRoute.snapshot.paramMap.get('id') as string;
+  }
+
+  toggleSchedule() {
+    this.showSchedule = !this.showSchedule;
   }
 }
